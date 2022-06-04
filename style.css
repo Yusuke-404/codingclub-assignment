@@ -15,7 +15,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: rgba(8, 113, 121, 0.733); 
+    background-color: rgb(53, 138, 145); 
 }
 
 .nav-left img{
@@ -87,8 +87,28 @@ body {
 /* About style*/
 
 #about {
-    display: flex;
     height: 100vh;
+}
+
+.about-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.about-heading h5 {
+    display: flex;
+    color: white;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 24px;
+    text-decoration: underline;
+    padding: 6vh 1vh;
+}
+
+.about-details {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
 }
 
 .about-left {
@@ -127,7 +147,7 @@ body {
     padding-top: 30vh;
 }
 
-#achievement h3 {
+#achievement h5 {
     text-align: center;
     font-size: 2.5rem;
     text-decoration: underline;
@@ -184,7 +204,7 @@ body {
 }
 
 .contact-form form textarea {
-    width: 50vh;
+    width: 40vh;
     border: 2px solid black;
 }
 
@@ -226,7 +246,7 @@ body {
 }
 
 #btn button{
-    background-color: rgb(25, 120, 150);
+    background-color: rgb(53, 138, 145);
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: 1px;
@@ -239,7 +259,7 @@ body {
 
 .copyright-stuff div {
     display: flex;
-    background-color: white;
+    background-color: rgb(53, 138, 145);
     float: left;
     align-self: center;
     width: 100%;
