@@ -1,2 +1,2 @@
-# codingclub-assignment
+# Codingclub Aassignment
 Coding Club Webpage
